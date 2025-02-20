@@ -18,8 +18,7 @@ describe(`Function 'arrayReverse':`, () => {
     expect(arrayReverse([''])).toEqual(['']);
   });
 
-  it(`should not change the length of the strings
-    from the original array`, () => {
+  it(`should preserve the original length of each string`, () => {
     expect(arrayReverse(['Mate', 'Academy'])).toEqual(['ymed', 'acAetaM']);
   });
 
